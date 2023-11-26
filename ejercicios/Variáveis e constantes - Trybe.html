@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<!-- saved from url=(0206)https://app.betrybe.com/learn/course/ac5d46f0-740a-4c81-8fc4-d18725aee78d/module/dfc78ae9-5560-4def-a85b-489cded568f4/section/4ce31d95-fc61-4517-bcfd-901c4b570b1f/lesson/eb18be3e-2043-469d-bfe1-2f2b873cba28 -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style data-emotion="mantine" data-s=""></style><style data-emotion="mantine" data-s=""></style><style data-emotion="mantine" data-s=""></style><link rel="stylesheet" href="./Variáveis e constantes - Trybe_files/iso_bootstrap4.1.0.min.css"><link rel="stylesheet" href="./Variáveis e constantes - Trybe_files/bootstrap-toc.min.css"><link rel="icon" href="https://app.betrybe.com/favicon.png"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"><meta name="description" content="Aprenda a programar com uma formação de alta qualidade e só comece a pagar quando conseguir um bom trabalho."><link rel="manifest" href="https://app.betrybe.com/manifest.json"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Variáveis e constantes - Trybe_files/css2" rel="stylesheet"><title>Variáveis e constantes - Trybe</title><script type="text/javascript" id="www-widgetapi-script" src="./Variáveis e constantes - Trybe_files/www-widgetapi.js" async=""></script><script type="text/javascript" async="" src="./Variáveis e constantes - Trybe_files/i.min.js"></script><script type="text/javascript">"localhost"!==window.location.hostname&&(window.$sleek=[],window.SLEEK_PRODUCT_ID=222597662,d=document,s=d.createElement("script"),s.src="https://client.sleekplan.com/sdk/e.js",s.async=1,d.getElementsByTagName("head")[0].appendChild(s))</script><script type="text/javascript">window.gsc=window.gsc||function(){(gsc.q=gsc.q||[]).push(arguments)}</script><script type="text/javascript">!function(){var t=document.createElement("script");t.setAttribute("src","https://www.googleoptimize.com/optimize.js?id=OPT-KTB9N46"),document.head.appendChild(t)}()</script><script type="text/javascript">!function(){var e=window.analytics=window.analytics||[];if(!e.initialize)if(e.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{e.invoked=!0,e.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"],e.factory=function(t){return function(){var n=Array.prototype.slice.call(arguments);return n.unshift(t),e.push(n),e}};for(var t=0;t<e.methods.length;t++){var n=e.methods[t];e[n]=e.factory(n)}e.load=function(t,n){var i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src="https://insights-cdn.betrybe.com/i.js/v1/"+t+"/i.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(i,r),e._loadOptions=n},e.SNIPPET_VERSION="4.13.1",e.load("UdiEYGaK1DDCrfif9CkSxl44nM1U8PZO")}}()</script><link href="./Variáveis e constantes - Trybe_files/8.bf73d4cf.chunk.css" rel="stylesheet"><link href="./Variáveis e constantes - Trybe_files/main.faf9917c.chunk.css" rel="stylesheet"><script src="./Variáveis e constantes - Trybe_files/e.js" async=""></script><script src="./Variáveis e constantes - Trybe_files/optimize.js"></script><style></style><style id="_goober"> @keyframes go2264125279{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go3020080000{from{transform:scale(0);opacity:0;}to{transform:scale(1);opacity:1;}}@keyframes go463499852{from{transform:scale(0) rotate(90deg);opacity:0;}to{transform:scale(1) rotate(90deg);opacity:1;}}@keyframes go1268368563{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}@keyframes go1310225428{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go651618207{0%{height:0;width:0;opacity:0;}40%{height:0;width:6px;opacity:1;}100%{opacity:1;height:10px;}}@keyframes go901347462{from{transform:scale(0.6);opacity:0.4;}to{transform:scale(1);opacity:1;}}.go4109123758{z-index:9999;}.go4109123758 > *{pointer-events:auto;}.go2072408551{display:flex;align-items:center;background:#fff;color:#363636;line-height:1.3;will-change:transform;box-shadow:0 3px 10px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.05);max-width:350px;pointer-events:auto;padding:8px 10px;border-radius:8px;}.go3958317564{display:flex;justify-content:center;margin:4px 10px;color:inherit;flex:1 1 auto;white-space:pre-line;}@keyframes go2645569136{0%{transform:translate3d(0,200%,0) scale(.6);opacity:.5;}100%{transform:translate3d(0,0,0) scale(1);opacity:1;}}@keyframes go1846062317{0%{transform:translate3d(0,0,-1px) scale(1);opacity:1;}100%{transform:translate3d(0,150%,-1px) scale(.6);opacity:0;}}</style><link rel="stylesheet" type="text/css" href="./Variáveis e constantes - Trybe_files/0.37dfaafe.chunk.css"><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/0.6abc0334.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/2.c23a35fe.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/3.559ed6cc.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/5.acb6d087.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/9.e8ffd0e6.chunk.js"></script><style type="text/css">
+
+            .i-sl-wrapper {
+                position: fixed;
+                z-index: 1000000;
+                border: 0px;
+                width: 430px;
+                background: transparent;
+                border-radius: 16px;
+                height: calc(100% - 30px);
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 40px;
+                transition: all 0.3s ease;
+                overflow: hidden;
+            }
+            .i-sl-wrapper:not(.active) {
+                height: calc(100% - 150px);
+                top: auto;
+                opacity: 0;
+            }
+            .i-sl-wrapper.hidden {
+                display:none;
+            }
+            .i-sl-wrapper.left {
+                left: 15px;
+                bottom: 15px;
+                top: 15px;
+            }
+            .i-sl-wrapper.right {
+                right: 15px;
+                bottom: 15px;
+                top: 15px;
+            }
+            .i-sl-widget {
+                width: 100%; 
+                height: 100%; 
+                border: 0;
+            }
+            .i-sl-wrapper.popup {
+                top: auto!important;
+                height: 0px!important;
+                transition:ease all .4s!important;
+                opacity:0!important;
+                box-shadow: none;
+            }
+            .i-sl-wrapper.popup-large {
+                width: 550px;
+            }
+            .i-sl-wrapper.tiny {
+                top: auto!important;
+                height: 0px!important;
+                transition:ease all .4s!important;
+                opacity:0!important;
+                width: 350px;
+            }
+
+
+
+            .i-sl-button {
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                -webkit-font-smoothing: antialiased;
+                position: fixed;
+                z-index:100000;
+                bottom: 0px;
+                left: 0px;
+                right: auto;
+                top: auto;
+                box-sizing: content-box!important;
+            }
+            .i-sl-button.inactive {
+                display: none;
+                opacity: 0;
+            }
+            .i-sl-button * {
+                box-sizing: content-box!important;
+            }
+            .i-sl-button-btn {
+                display: flex;
+                cursor: pointer;
+                background: #2196F3;
+                background-color: #036B52;
+                color: #FFFFFF;
+                cursor:pointer;
+                max-height: 40px;
+                height: 40px;
+                border-radius: 40px;
+                overflow:hidden;
+                opacity:1;
+                transition: all 0.3s ease;
+            }
+            .i-sl-button-btn.force-hidden {
+                opacity:0;
+            }
+            .i-sl-button-btn:not(.active) {
+                opacity:0;
+            }
+            .i-sl-button-desc {
+                line-height: 40px;
+                margin: 0 15px;
+                margin-right: 25px;
+            }
+            .i-sl-button-desc span {
+                display:block;
+                white-space: nowrap;
+                font-size: 13px;
+                text-align: center;
+                font-weight: 500;
+                letter-spacing: 1;
+                text-transform: uppercase;
+                max-width: 150px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .i-sl-button-logo {
+                background: transparent;
+            }
+            .i-sl-button-logo > div {
+                height: 36px;
+                width: 36px;
+                padding: 2px;
+            }
+            .i-sl-button-logo > div img {
+                border-radius: 50%;
+                display: block;
+                height: 36px;
+                width: 36px;
+                margin: 0;
+                padding: 0;
+            }
+            .i-sl-button-logo > div svg {
+                display: block;
+                height: 36px;
+                width: 36px;
+                opacity: .8;
+                fill: #ffffff;
+                margin: 0;
+                padding: 0;
+            }
+            .i-sl-button.left-middle {
+                left: 15px;
+                right: auto;
+            }
+            .i-sl-button.left-top {
+                bottom: auto;
+                left: 15px;
+                right: auto;
+                top: 15px;
+            }
+            .i-sl-button.left-bottom {
+                bottom: 15px;
+                left: 15px;
+                right: auto;
+                top: auto;
+            }
+            .i-sl-button.right-middle {
+                right: 15px;
+                left: auto;
+            }
+            .i-sl-button.right-top {
+                bottom: auto;
+                left: auto;
+                right: 15px;
+                top: 15px;
+            }
+            .i-sl-button.right-bottom {
+                bottom: 15px;
+                left: auto;
+                right: 15px;
+                top: auto;
+            }
+            .i-sl-button-counter {
+                display:none;
+                position: absolute;
+                top: -5px;
+                right: -5px;
+                z-index: 100;
+            }
+            .i-sl-button-counter.active {
+                display:block;
+            }
+            .i-sl-button-counter-inner {
+                background: #ed8484;
+                color: #FFF;
+                border-radius: 50%;
+                text-align: center;
+                height: 16px;
+                line-height: 16px;
+                width: 16px;
+                font-size: 9px;
+                font-weight: 700;
+                border: 2px solid #FFF;
+                font-family: Arial;
+            }
+
+            /* Compact Button */
+            .i-sl-button-inner.compact .i-sl-button-desc {
+                -webkit-transition: ease all .5s;
+                transition: ease all .5s;
+                max-width: 500px;
+            }
+            .i-sl-button-inner.compact:not(:hover) .i-sl-button-desc {
+                margin: 0px!important;
+                max-width: 0px;
+            }
+            .i-sl-button-inner.compact .i-sl-button-btn {
+                position: relative;
+                z-index: 20;
+            }
+            .i-sl-button-inner.compact {
+                position: relative;
+                z-index: 10;
+            }
+            .i-sl-button-inner.compact .i-sl-button-btn.active {
+                overflow: initial;
+            }
+            .i-sl-button-inner.compact .i-sl-button-btn.active::after {
+                content: '';
+                -webkit-transition: ease all .5s;
+                transition: ease all .5s;
+                z-index: -1;
+                position: absolute;
+                bottom: 0px;
+                width: 20px;
+                height: 20px;
+                left: 20px;
+                margin-left: 0px;
+                background: #03a9f4;
+                background-color: #036B52;
+                opacity: 1;
+                border-radius: 0 0 3px 0;
+            }
+            .i-sl-button-inner.compact:hover .i-sl-button-btn::after {
+                opacity: 0;
+            }
+
+            /* Icon: empty */
+            .i-sl-button-inner.icon-none:not(.compact) .i-sl-button-logo > div {
+                width: 10px;
+                padding: 0px;
+            }
+            .i-sl-button-inner.icon-none.compact:hover .i-sl-button-logo > div {
+                width: 10px;
+                padding: 0px;
+            }
+
+            /* Middle Button */
+            .i-sl-button[class*='-middle'] {
+                top: 50%;
+                bottom: auto;
+                transform: translateY(-50%);
+                transform-origin: center;
+            }
+            .i-sl-button[class*='-middle'] .i-sl-button-btn {
+                flex-direction: column-reverse;
+                height: auto;
+                max-height: 100%;
+                width: 40px;
+                max-width: 40px;
+            }
+            .i-sl-button[class*='-middle'] .i-sl-button-desc {
+                writing-mode: vertical-lr;
+                margin: 15px 0;
+                margin-top: 25px;
+                transform: rotate(180deg);
+            }
+            .i-sl-button[class*='-middle'] .i-sl-button-desc span {
+                max-height: 150px;
+                text-overflow: initial;
+            }
+            .i-sl-button[class*='-middle'] .i-sl-button-inner.compact:not(:hover) .i-sl-button-desc {
+                max-height: 0px!important;
+                max-width: 40px!important;
+                margin: 0px;
+            }
+
+
+
+            /* Tools */
+            .t-sl-wrapper-opened {
+                overflow: hidden!important;
+            }
+            .t-sl-wrapper {
+                position: fixed;
+                top: 0px;
+                right: 0px;
+                left: 0px;
+                bottom: 0px;
+                z-index: 9999999999;
+                width: 100%;
+                height: 100%;
+                opacity: 1;
+                transition: ease opacity .4s;
+                transition-delay: .2s;
+            }
+            .t-sl-wrapper.hidden {
+                opacity: 0;
+                z-index: -1;
+                width: 0px;
+                height: 0px;
+                transition: ease opacity .4s;
+                transition-delay: .2s;
+            }
+            .t-sl-widget {
+                width: 100%; 
+                height: 100%; 
+                border: 0;
+            }
+
+
+
+            /* Full screen widget */
+            @media only screen and (max-width: 450px) {
+
+                .i-sl-wrapper {
+                    left: 0px!important;
+                    top: 0px!important;
+                    bottom: 0px!important;
+                    right: 0px!important;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0px;
+                }
+            
+            }
+
+
+
+            /* Tablet */
+            @media only screen and (max-width: 900px) {
+
+                .i-sl-button-btn {
+                    max-height: 30px;
+                    height: 30px;
+                }
+                .i-sl-button-desc {
+                    line-height: 30px;
+                }
+                .i-sl-button-logo > div {
+                    height: 26px;
+                    width: 26px;
+                    padding: 2px;
+                }
+                .i-sl-button-logo > div img {
+                    height: 26px;
+                    width: 26px;
+                }
+                .i-sl-button-logo > div svg {
+                    height: 26px;
+                    width: 26px;
+                }
+                .i-sl-button.left-middle {
+                    left: 5px;
+                }
+                .i-sl-button.right-middle {
+                    right: 5px;
+                }
+
+                /* Compact Button */
+                .i-sl-button-inner.compact::after {
+                    width: 15px;
+                    height: 15px;
+                    left: 15px;
+                }
+                .i-sl-button-inner.compact .i-sl-button-btn.active::after {
+                    width: 10px;
+                }
+
+                /* Middle Button */
+                .i-sl-button[class*='-middle'] .i-sl-button-btn {
+                    width: 30px;
+                    max-width: 30px;
+                }
+
+            }
+
+
+
+            /* Smartphone */
+            @media only screen and (max-width: 500px) { 
+
+            }
+
+
+
+            /* Custom Badge */
+            [data-badge],
+            [data-badge-feedback],
+            [data-badge-changelog] {
+                position: relative!important;
+            }
+            [data-badge]::after,
+            [data-badge-feedback]::after,
+            [data-badge-changelog]::after {
+                display:none;
+                content: attr(data-count);
+                position: absolute;
+                right: -7px;
+                top: -7px;
+                width: 14px;
+                height: 14px;
+                line-height: 14px;
+                font-size: 9px;
+                font-weight: bold;
+                text-align: center;
+                border-radius: 50%;
+                color: #fff;
+                background-color: #ed8484;
+                font-family: Arial;
+            }
+            [data-count][data-badge]::after,
+            [data-count][data-badge-feedback]::after,
+            [data-count][data-badge-changelog]::after {
+                display:block;
+            }
+
+
+
+        </style><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/123.18065c01.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/120.86e7ff0b.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/61.a507cbc7.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/353.b0fda51e.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/358.2a5b99ff.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/294.c44a73e4.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/357.47c72185.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/372.b2cb4992.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/388.551d306e.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/351.baa36a1b.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/36.6cacc51e.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/359.efa14545.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/301.4a7d74d7.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/341.a1325845.chunk.js"></script><script type="text/javascript" async="" src="./Variáveis e constantes - Trybe_files/iframe_api"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/373.ac375fe9.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/375.06677bbe.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/281.257b9c1e.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/283.53c8ddd1.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/289.936b5335.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/352.6150f8a0.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/342.28066e8c.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/333.009056f9.chunk.js"></script><script charset="utf-8" src="./Variáveis e constantes - Trybe_files/364.96931047.chunk.js"></script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><div class="c-lkBNdM"><div class="c-kEettl" style="position: fixed; z-index: 9999; inset: 16px; pointer-events: none;"></div><main class="c-fwuzGI"><div class="c-hbMZyi c-eobdFL"><div><div class="c-hbMZyi c-awKDG"><button role="button" type="button" aria-disabled="false" class="c-eqzuyj c-eqzuyj-dbhHqa-size-medium c-eqzuyj-cAzRkd-kind-ghost c-eqzuyj-foeRuN-cv c-ikjwZs" title="Menu principal, expandido, items de menu visíveis" id="menu-toggle-button" data-testid="menu-toggle-button" aria-expanded="true" aria-controls="menu-toggle-button"><div data-testid="icon-position-left" class="c-PJLV c-PJLV-krlfeC-iconPosition-left c-PJLV-haxWh-isIconOnly-true"><div class="c-ieVRmK c-ieVRmK-idiuQfs-css"><figure data-testid="icon-rounded_menu"><svg fill="none" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="id-7L5WyeL2Yb7C972h_6OS9 id--lrtoaergpp8WENwKWXtG" aria-hidden="false" focusable="false"><title id="id-7L5WyeL2Yb7C972h_6OS9"></title><desc id="id--lrtoaergpp8WENwKWXtG"></desc><path d="M2 13H18C18.55 13 19 12.55 19 12C19 11.45 18.55 11 18 11H2C1.45 11 1 11.45 1 12C1 12.55 1.45 13 2 13ZM2 8H18C18.55 8 19 7.55 19 7C19 6.45 18.55 6 18 6H2C1.45 6 1 6.45 1 7C1 7.55 1.45 8 2 8ZM1 2C1 2.55 1.45 3 2 3H18C18.55 3 19 2.55 19 2C19 1.45 18.55 1 18 1H2C1.45 1 1 1.45 1 2Z"></path></svg></figure></div></div></button><div class="c-bgRMoN c-bgRMoN-iZIooN-position-vertical c-bgRMoN-cnqWXX-cv" aria-hidden="true"></div><div class="c-emIXL" data-testid="ada-header-menu-brand"><a title="Trybe" href="https://app.betrybe.com/learn"><svg viewBox="0 0 200 52" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="false" focusable="false" class="c-loYguN"><title>Trybe logo icon</title><path d="M128.4 16.172C131.892 16.172 134.278 18.3813 134.952 22.3064H121.787C122.584 18.3813 124.971 16.172 128.4 16.172ZM143.524 25.7381C143.524 15.617 137.769 9.42462 128.585 9.42462C119.401 9.42462 112.788 15.802 112.788 25.1251C112.788 34.9995 119.585 41.3769 130.237 41.3769C134.582 41.3769 138.686 40.2741 141.746 38.3116C142.235 38.0032 142.358 37.4518 142.173 36.9004L140.399 32.4239C140.091 31.5641 139.298 31.3211 138.501 31.7492C136.234 32.9753 133.42 33.65 130.725 33.65C125.706 33.65 122.276 31.3791 121.664 27.9474H142.296C142.97 27.9474 143.521 27.396 143.521 26.7212V25.7381H143.524ZM92.4596 33.5884C88.1136 33.5884 85.1729 30.2147 85.1729 25.3101C85.1729 20.4055 88.1136 16.8468 92.4596 16.8468C96.8055 16.8468 99.6847 20.2822 99.6847 25.3101C99.6847 30.338 96.7439 33.5884 92.4596 33.5884ZM95.2156 9.42462C91.1739 9.42462 87.8058 11.0208 85.296 13.9628V3.96864C85.296 3.2939 84.7455 2.7425 84.0719 2.7425H77.582C76.9084 2.7425 76.3579 3.2939 76.3579 3.96864V39.476C76.3579 40.1508 76.9084 40.7022 77.582 40.7022H84.0719C84.7455 40.7022 85.296 40.1508 85.296 39.476V36.6537C87.8058 39.7191 91.1739 41.3769 95.2772 41.3769C103.361 41.3769 109.115 34.8145 109.115 25.3101C109.115 15.8057 103.361 9.42462 95.2156 9.42462ZM61.5999 39.7844C58.6591 47.2066 53.8858 51.1933 47.7617 51.1933C46.7223 51.1933 45.6793 51.07 44.7015 50.885C44.151 50.7616 43.8431 50.2719 43.8431 49.7205V44.5076C43.8431 43.6478 44.5168 43.0964 45.4366 43.2198C45.864 43.2814 46.3565 43.2814 46.7839 43.2814C49.8441 43.2814 51.7419 41.932 52.296 39.3563L42.2533 12.0655C41.8875 11.0244 42.4995 10.1647 43.5389 10.1647H50.7025C51.1914 10.1647 51.6839 10.473 51.8034 10.9627L57.1308 29.2388L63.0702 10.9627C63.1934 10.473 63.6823 10.1647 64.1712 10.1647H71.2116C72.251 10.1647 72.8631 11.1478 72.4973 12.1272L61.5999 39.788V39.7844ZM29.9434 14.7609C31.6564 12.0619 34.2278 10.0377 37.8421 10.0377C38.4542 10.0377 38.762 10.4658 38.762 11.2638V18.4393C38.762 19.1141 38.2115 19.6655 37.5379 19.6655H34.5392C31.5406 19.6655 29.947 21.3813 29.947 24.512V39.476C29.947 40.1508 29.3966 40.7022 28.7229 40.7022H22.2946C21.621 40.7022 21.0705 40.1508 21.0705 39.476V11.3255C21.0705 10.6508 21.621 10.0994 22.2946 10.0994H28.7229C29.3966 10.0994 29.947 10.6508 29.947 11.3255V14.7609H29.9434ZM8.94174 3.96864V10.0994H16.1668C16.8405 10.0994 17.3909 10.6508 17.3909 11.3255V16.4151C17.3909 17.0898 16.8405 17.6412 16.1668 17.6412H8.94174V28.8652C8.94174 31.4408 10.4737 32.7903 13.4724 32.7903C14.146 32.7903 14.9427 32.7286 15.7395 32.5436C16.6594 32.3586 17.3909 32.9717 17.3909 33.8931V38.921C17.3909 39.4724 17.0252 39.9621 16.4095 40.0855C14.3886 40.4519 12.3678 40.6986 10.7163 40.6986C4.16484 40.6986 0 37.0818 0 31.4988V3.96864C0 3.2939 0.550484 2.7425 1.2241 2.7425H7.71764C8.39126 2.7425 8.94174 3.2939 8.94174 3.96864Z" fill="currentColor"></path><path d="M178.691 21.5414H157.967C156.135 21.5414 155.483 19.1153 157.071 18.1979L188.16 0.250933C189.748 -0.666541 191.525 1.11038 190.608 2.69874L180.247 20.6457C179.928 21.2005 179.337 21.5414 178.695 21.5414H178.691Z" fill="#1EB720"></path><path d="M200 7.08666V42.9805C200 44.8118 197.574 45.4646 196.656 43.8762L186.296 25.9293C185.977 25.3745 185.977 24.6927 186.296 24.1379L196.656 6.19094C197.574 4.60259 200 5.25534 200 7.08666Z" fill="#1EB720"></path><path d="M180.243 29.4251L190.604 47.3721C191.522 48.9604 189.745 50.7374 188.156 49.8199L157.071 31.8729C155.483 30.9555 156.135 28.5294 157.967 28.5294H178.691C179.33 28.5294 179.924 28.8703 180.243 29.4251Z" fill="#1EB720"></path></svg></a></div></div></div><div><div class="c-hbMZyi c-bZmKkd"><div class="c-cQiStE"><label for="ada-header-menu-switch" class="c-bizcyj">Ativar modo escuro</label><div class="c-AsWAM"><button type="button" id="ada-header-menu-switch" aria-label="Ativar modo escuro" aria-disabled="false" data-testid="theme-light" class="c-fuLdIg"><div class="c-ieVRmK c-ieVRmK-ijLwVDI-css"><figure data-testid="icon-rounded_light_mode"><svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="id-YrUue4uo2V2RJtjA-iUIL id-ZoNEOVSHR4O_Ql7MTfWnB" aria-hidden="false" focusable="false"><title id="id-YrUue4uo2V2RJtjA-iUIL"></title><desc id="id-ZoNEOVSHR4O_Ql7MTfWnB"></desc><path d="M12 9C13.65 9 15 10.35 15 12C15 13.65 13.65 15 12 15C10.35 15 9 13.65 9 12C9 10.35 10.35 9 12 9ZM12 7C9.24 7 7 9.24 7 12C7 14.76 9.24 17 12 17C14.76 17 17 14.76 17 12C17 9.24 14.76 7 12 7ZM2 13H4C4.55 13 5 12.55 5 12C5 11.45 4.55 11 4 11H2C1.45 11 1 11.45 1 12C1 12.55 1.45 13 2 13ZM20 13H22C22.55 13 23 12.55 23 12C23 11.45 22.55 11 22 11H20C19.45 11 19 11.45 19 12C19 12.55 19.45 13 20 13ZM11 2V4C11 4.55 11.45 5 12 5C12.55 5 13 4.55 13 4V2C13 1.45 12.55 1 12 1C11.45 1 11 1.45 11 2ZM11 20V22C11 22.55 11.45 23 12 23C12.55 23 13 22.55 13 22V20C13 19.45 12.55 19 12 19C11.45 19 11 19.45 11 20ZM5.99 4.58C5.6 4.19 4.96 4.19 4.58 4.58C4.19 4.97 4.19 5.61 4.58 5.99L5.64 7.05C6.03 7.44 6.67 7.44 7.05 7.05C7.43 6.66 7.44 6.02 7.05 5.64L5.99 4.58ZM18.36 16.95C17.97 16.56 17.33 16.56 16.95 16.95C16.56 17.34 16.56 17.98 16.95 18.36L18.01 19.42C18.4 19.81 19.04 19.81 19.42 19.42C19.81 19.03 19.81 18.39 19.42 18.01L18.36 16.95ZM19.42 5.99C19.81 5.6 19.81 4.96 19.42 4.58C19.03 4.19 18.39 4.19 18.01 4.58L16.95 5.64C16.56 6.03 16.56 6.67 16.95 7.05C17.34 7.43 17.98 7.44 18.36 7.05L19.42 5.99ZM7.05 18.36C7.44 17.97 7.44 17.33 7.05 16.95C6.66 16.56 6.02 16.56 5.64 16.95L4.58 18.01C4.19 18.4 4.19 19.04 4.58 19.42C4.97 19.8 5.61 19.81 5.99 19.42L7.05 18.36Z"></path></svg></figure></div></button></div><div aria-haspopup="dialog" aria-expanded="false" aria-controls="mantine-b219c44g8-dropdown" id="mantine-b219c44g8-target" class="c-AsWAM"><button type="button" class="c-GReXo" data-testid="header-menu-profile-activator" aria-label="Abrir menu de perfil principal"><div class="c-fcYiqn">D</div><span class="c-kgxFor">Daniel Fernandes</span><div class="c-ieVRmK c-ieVRmK-ikFJLcE-css c-fpDmww"><figure data-testid="icon-expand_more"><svg fill="none" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="id-3uuH0QgZ-FQcl_IVNv-y9 id-ewWS2Y9ndPKf1sEi73Ybp" aria-hidden="false" focusable="false"><title id="id-3uuH0QgZ-FQcl_IVNv-y9"></title><desc id="id-ewWS2Y9ndPKf1sEi73Ybp"></desc><path d="M0.935073 0.0825191L0.0500736 0.967519L5.00007 5.91752L9.95007 0.96752L9.06507 0.0825195L5.00007 4.14752L0.935073 0.0825191V0.0825191Z"></path></svg></figure></div></button></div></div></div></div></div><div class="c-hKoSaj c-hKoSaj-cHwGCC-header-true c-hKoSaj-hCEaIn-isOpen-true"><button type="button" class="c-isbzcg c-isbzcg-gdrtwB-isOpen-true">Fechar menu</button><aside id="menu-toogle-content" role="region" aria-labelledby="menu-toogle-button" aria-hidden="false" class="c-fSmcIa"><div class="c-emnago c-emnago-dtkdsG-resetPadding-true"><div><ul class="c-cCubXn"><li class="c-fXXVzC"><header class="c-lnYXRh"><span title="Navegue pelas lições:" class="c-cWWFvs">Navegue pelas lições:</span></header><ul class="c-cCubXn"><li class="c-fXXVzC"><a class="c-jpoxul active lesson" title="Variáveis e constantes, selecionado, item de menu" href="https://app.betrybe.com/learn/course/ac5d46f0-740a-4c81-8fc4-d18725aee78d/module/dfc78ae9-5560-4def-a85b-489cded568f4/section/4ce31d95-fc61-4517-bcfd-901c4b570b1f/lesson/eb18be3e-2043-469d-bfe1-2f2b873cba28" role="link" target="_self" aria-disabled="false" rel="noopener noreferrer"><div class="c-kFLrJl"><span class="c-htZshh"></span><span class="c-iZVrtr">Variáveis e constantes</span></div></a></li><li class="c-fXXVzC"><a class="c-jpoxul lesson" title="Tipos primitivos, item de menu" href="https://app.betrybe.com/learn/course/ac5d46f0-740a-4c81-8fc4-d18725aee78d/module/dfc78ae9-5560-4def-a85b-489cded568f4/section/4ce31d95-fc61-4517-bcfd-901c4b570b1f/lesson/e506c9cc-0944-4bf2-bc6d-77d70dc565c1" role="link" target="_self" aria-disabled="false" rel="noopener noreferrer"><div class="c-kFLrJl"><span class="c-htZshh"></span><span class="c-iZVrtr">Tipos primitivos</span></div></a></li><li class="c-fXXVzC"><a class="c-jpoxul lesson" title="Fixando os aprendizados, item de menu" href="https://app.betrybe.com/learn/course/ac5d46f0-740a-4c81-8fc4-d18725aee78d/module/dfc78ae9-5560-4def-a85b-489cded568f4/section/4ce31d95-fc61-4517-bcfd-901c4b570b1f/lesson/a6bfb403-5552-482c-a0a1-b2e497c471af" role="link" target="_self" aria-disabled="false" rel="noopener noreferrer"><div class="c-kFLrJl"><span class="c-htZshh"></span><span class="c-iZVrtr">Fixando os aprendizados</span></div></a></li></ul></li></ul></div></div><div class="c-fIwwhv"></div></aside><div class="c-klTDPo c-klTDPo-bAhouc-header-true"><div class="c-lkBNdM"><main class="c-cddNTN"><header class="c-nEACK"><nav class="c-gxHqGc c-gxHqGc-kTHrvb-theme-green"><ul class="c-kCyvLX c-kCyvLX-jGfngs-theme-green"><li class="c-jDArSR c-jDArSR-fbCltR-theme-green"><a title="Trybe" href="https://app.betrybe.com/learn">Trybe</a><div class="c-ieVRmK c-ieVRmK-idjDlvc-css course-breadcrumb-arrow"><figure data-testid="icon-arrow_forward_ios"><svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="id-bCykKQ6WZZ8OMBFB6vNUZ id-HP3FCAsTPICML44bfK1kT" aria-hidden="false" focusable="false"><title id="id-bCykKQ6WZZ8OMBFB6vNUZ"></title><desc id="id-HP3FCAsTPICML44bfK1kT"></desc><path d="M6.16498 20.1301L7.93498 21.9001L17.835 12.0001L7.93498 2.1001L6.16498 3.8701L14.295 12.0001L6.16498 20.1301H6.16498Z"></path></svg></figure></div></li><li class="c-jDArSR c-jDArSR-fbCltR-theme-green"><a title="JavaScript do zero" href="https://app.betrybe.com/learn/course/ac5d46f0-740a-4c81-8fc4-d18725aee78d/module/dfc78ae9-5560-4def-a85b-489cded568f4">JavaScript do zero</a><div class="c-ieVRmK c-ieVRmK-idjDlvc-css course-breadcrumb-arrow"><figure data-testid="icon-arrow_forward_ios"><svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="id-TRmI7AHbqmFHbvq4uR1B0 id-rNWySlw6HwfWKLEwTyk1z" aria-hidden="false" focusable="false"><title id="id-TRmI7AHbqmFHbvq4uR1B0"></title><desc id="id-rNWySlw6HwfWKLEwTyk1z"></desc><path d="M6.16498 20.1301L7.93498 21.9001L17.835 12.0001L7.93498 2.1001L6.16498 3.8701L14.295 12.0001L6.16498 20.1301H6.16498Z"></path></svg></figure></div></li><li class="c-jDArSR c-jDArSR-fbCltR-theme-green"><a title="Variáveis, constantes e tipos primitivos" href="https://app.betrybe.com/learn/course/ac5d46f0-740a-4c81-8fc4-d18725aee78d/module/dfc78ae9-5560-4def-a85b-489cded568f4#4ce31d95-fc61-4517-bcfd-901c4b570b1f">Variáveis, constantes e tipos primitivos</a><div class="c-ieVRmK c-ieVRmK-idjDlvc-css course-breadcrumb-arrow"><figure data-testid="icon-arrow_forward_ios"><svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="id-nX0I75YZ2TynZIa8xhHur id-YWNQXj0rTLGOyl4ajVbob" aria-hidden="false" focusable="false"><title id="id-nX0I75YZ2TynZIa8xhHur"></title><desc id="id-YWNQXj0rTLGOyl4ajVbob"></desc><path d="M6.16498 20.1301L7.93498 21.9001L17.835 12.0001L7.93498 2.1001L6.16498 3.8701L14.295 12.0001L6.16498 20.1301H6.16498Z"></path></svg></figure></div></li><li class="c-jDArSR c-jDArSR-fbCltR-theme-green"><span title="Variáveis e constantes">Variáveis e constantes</span></li></ul></nav><nav class="c-cRcPjt"><span class="c-cpLjVx"></span><span class="c-jWOPah">Variáveis e constantes</span><span class="c-cpLjVx"><a class="c-jRnhKM c-jRnhKM-ikOYgYd-css" href="https://app.betrybe.com/learn/course/ac5d46f0-740a-4c81-8fc4-d18725aee78d/module/dfc78ae9-5560-4def-a85b-489cded568f4/section/4ce31d95-fc61-4517-bcfd-901c4b570b1f/lesson/e506c9cc-0944-4bf2-bc6d-77d70dc565c1"><span class="c-cVjUXC">Próximo</span><div class="c-ieVRmK c-ieVRmK-ijLwVDI-css"><figure data-testid="icon-rounded_next"><svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="id-9e6-WkZ7p8JTKXn6zh-ki id-CgUXmSmV5r6b0KY31gDax" aria-hidden="false" focusable="false"><title id="id-9e6-WkZ7p8JTKXn6zh-ki"></title><desc id="id-CgUXmSmV5r6b0KY31gDax"></desc><path d="M9.20599 16.7947C9.4797 17.0684 9.92099 17.0684 10.1947 16.7947L14.8366 12.1528C15.0545 11.935 15.0545 11.583 14.8366 11.3652L10.1947 6.72327C9.92099 6.44956 9.4797 6.44956 9.20599 6.72327C8.93228 6.99699 8.93228 7.43827 9.20599 7.71199L13.2502 11.7618L9.2004 15.8116C8.93228 16.0797 8.93228 16.5266 9.20599 16.7947Z"></path></svg></figure></div></a></span></nav></header><div class="c-kWDhvw"><article class="c-daJEgu"><h1>
+Variáveis e Constantes</h1>
+<h2>
+O que vamos aprender?</h2>
+<p>
+Você vai aprender a escrever suas primeiras linhas de código em Javascript, criando e armazenando valores em variáveis! Você vai compreender o que são variáveis, seus diferentes tipos e ainda entender e manipular dados.</p>
+<h3>
+Você será capaz de:</h3>
+<ul>
+  <li>
+Criar variáveis;  </li>
+  <li>
+Entender a estrutura de uma variável;  </li>
+  <li>
+Atribuir valores às variáveis.  </li>
+</ul>
+<h2>
+Por que isso é importante?</h2>
+<p>
+O conceito de variáveis está entre os conceitos mais importantes ao escrever código para programas. Variáveis são como caixas que guardam informações na memória do computador e que podem ser utilizadas em todas as partes do programa.</p>
+<p>
+Você provavelmente interage com sistemas que guardam informações nessas caixas: </p>
+<ul>
+  <li>
+Seu nome de usuário quando faz o login no seu computador;  </li>
+  <li>
+O número da sua conta quando você acessa o sistema de um banco;  </li>
+  <li>
+Uma mensagem enviada por um aplicativo podem ser encontradas guardadas em variáveis.  </li>
+</ul>
+<p>
+Entre essas e outras situações, as variáveis estão presentes no seu dia a dia e você nem percebe! 🥸</p>
+<p>
+Vamos ver como elas funcionam na prática? 🚀</p>
+<hr>
+<h2>
+O que são variáveis?</h2>
+</article><article class="c-daJEgu"><p>
+Variáveis são espaços na memória do computador que funcionam como caixas que possuem um nome e que podemos guardar alguma coisa dentro.</p>
+<p>
+Para compreender melhor o funcionamento de uma variável, imagine o seguinte cenário:</p>
+<p>
+Uma loja virtual vende presentes, como roupas, canecas e chaveiros. Para fazer uma entrega, o item comprado é colocado dentro de uma caixa, que possui uma etiqueta com a descrição do que tem dentro dela:</p>
+<p>
+  <img src="./Variáveis e constantes - Trybe_files/Produtos da Loja Virtual.webp" alt="Produtos da Loja Virtual">
+</p>
+<p>
+Vamos supor que é preciso fazer uma entrega de um produto para um cliente: temos a caixa que possui uma etiqueta de nome <code class="inline">roupa</code> e o produto a ser entregue, que é uma camiseta.</p>
+<p>
+<strong>Podemos imaginar variáveis exatamente dessa mesma forma</strong>:</p>
+<ul>
+  <li>
+A caixa é a variável, que possui uma etiqueta representando o nome da variável: roupa;  </li>
+  <li>
+O valor dessa variável é o que está dentro da caixa: camiseta.  </li>
+</ul>
+<p>
+  <img src="./Variáveis e constantes - Trybe_files/Camiseta.webp" alt="Camiseta">
+</p>
+<p>
+Vamos ver como essa variável <code class="inline">caixa</code> e o seu valor <code class="inline">'camiseta'</code> são escritos em código JavaScript:</p>
+</article><div class="c-jykYDu"><div class="c-fkerDR"><button type="button" class="c-gfRGUc">Copiar</button><pre style="color: rgb(248, 248, 242); background: rgb(39, 40, 34); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-javascript" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 1.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">1</span><span class="token" style="color: rgb(102, 217, 239);">let</span><span> roupa </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'camiseta'</span><span class="token" style="color: rgb(248, 248, 242);">;</span></code></pre></div></div><article class="c-daJEgu">
+<ul>
+  <li>
+A caixa representa a variável e a etiqueta <code class="inline">roupa</code> representa o nome dessa variável;  </li>
+  <li>
+A <code class="inline">'camiseta'</code>, representa o valor da variável.  </li>
+</ul>
+<p>
+Dessa maneira, é possível dizer que o valor <code class="inline">'camiseta'</code> foi atribuído à variável de nome <code class="inline">roupa</code>.</p>
+<p>
+E assim, a variável é declarada! 🎉</p>
+<blockquote>
+  <p>
+<strong>Anota aí 📣:</strong> Declarar uma variável é o mesmo que dizer “criar uma variável”. Em programação, <em>declarar</em> significa dizer ao computador para reservar um espaço na memória para armazenar um dado.  </p>
+</blockquote>
+<p>
+Vamos analisar o código:</p>
+<ul>
+  <li>
+<code class="inline">let</code> é uma palavra-chave utilizada para declarar uma variável. Ela é colocada antes do nome da variável para informar ao computador que ela deve ser criada;  </li>
+  <li>
+<code class="inline">roupa</code> se refere ao nome da variável. Nesse caso, a caixa que representa a variável tem o nome <code class="inline">roupa</code>.  </li>
+  <li>
+<code class="inline">=</code>, é o operador de atribuição. Atribui o valor <code class="inline">'camiseta'</code> à variável <code class="inline">roupa</code>.  </li>
+  <li>
+<code class="inline">camiseta</code> é o valor atribuído à variável, ou seja, o produto que é colocado dentro da caixa. Nesse caso, o conteúdo da caixa é uma <code class="inline">'camiseta'</code>.  </li>
+  <li>
+Por fim, o ponto e vírgula <code class="inline">;</code> completa a estrutura. Esse sinal gráfico indica, na linguagem JavaScript, que você terminou de escrever aquela linha.  </li>
+</ul>
+<p>
+E se quisermos alterar o valor da variável, é possível? 🤔 A resposta é: <strong>sim!</strong> 😸</p>
+<p>
+Voltando ao cenário da loja virtual, imagine que o comprador da camiseta quis fazer a troca do produto, antes mesmo do envio, e solicitou que a camiseta fosse trocada por um moletom. Sendo assim, o valor antigo <code class="inline">'camiseta'</code> foi substituído por outro valor, o <code class="inline">'moletom'</code>.</p>
+<p>
+As variáveis guardam somente um único valor por vez, que pode ser trocado por outro. Toda vez que for preciso colocar um novo valor dentro da variável, o anterior será substituído.</p>
+<p>
+  <img src="./Variáveis e constantes - Trybe_files/Moletom.webp" alt="Moletom">
+</p>
+<blockquote>
+  <p>
+<strong>Anota aí</strong> 📣: As variáveis guardam somente um único valor e, toda vez que a variável receber um novo valor, o antigo é substituído.  </p>
+</blockquote>
+<p>
+Veja como ficaria no código a atribuição do novo valor <code class="inline">'moletom'</code> à variável <code class="inline">'roupa'</code>:</p>
+</article><div class="c-jykYDu"><div class="c-fkerDR"><button type="button" class="c-gfRGUc">Copiar</button><pre style="color: rgb(248, 248, 242); background: rgb(39, 40, 34); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-javascript" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 1.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">1</span><span>roupa </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'moletom'</span><span class="token" style="color: rgb(248, 248, 242);">;</span></code></pre></div></div><article class="c-daJEgu">
+<p>
+Percebeu que nesse caso não utilizamos a palavra <code class="inline">let</code>?</p>
+<p>
+A palavra-chave é utilizada somente quando a variável é declarada, ou seja, quando você escreve ela no código pela primeira vez. Para reatribuir um valor à uma variável, a palavra-chave não deve ser repetida.</p>
+<p>
+Legal, né? Agora a variável <code class="inline">roupa</code> passou a ter um novo valor: <code class="inline">'moletom'</code>.</p>
+</article><article class="c-daJEgu"><h3>
+Hora de praticar!</h3>
+<p>
+A partir daqui você já pode começar a escrever as suas primeiras linhas de código. Não se preocupe, vamos te ajudar! 🚀</p>
+</article><article class="c-daJEgu"><p>
+A ferramenta que vamos utilizar para escrever e executar código JavaScript é o <code class="inline">console</code> do seu navegador.</p>
+<p>
+Para entender o que é o <code class="inline">console</code> e como utilizá-lo, assista à essa pequena introdução:</p>
+</article><div class="c-jjtfuy"><div class="c-bVoeLX"><iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="JavaScript do Zero | 06. Console do navegador | CURSO GRATUITO" src="./Variáveis e constantes - Trybe_files/O2s2RFK8b4U.html" id="widget20"></iframe></div></div><article class="c-daJEgu"><p>
+Vamos declarar uma variável que irá receber a informação da sua comida favorita! 😋</p>
+<p>
+Acompanhe este passo a passo para declarar sua primeira variável:</p>
+<p>
+<strong>Primeiro passo:</strong> Digite o código abaixo no console do seu navegador:</p>
+</article><div class="c-jykYDu"><div class="c-fkerDR"><button type="button" class="c-gfRGUc">Copiar</button><pre style="color: rgb(248, 248, 242); background: rgb(39, 40, 34); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-javascript" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">1</span><span class="token" style="color: rgb(102, 217, 239);">let</span><span> </span><span class="token" style="color: rgb(248, 248, 242);">[</span><span>nome</span><span class="token" style="color: rgb(248, 248, 242);">]</span><span> </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(248, 248, 242);">[</span><span>valor</span><span class="token" style="color: rgb(248, 248, 242);">]</span><span class="token" style="color: rgb(248, 248, 242);">;</span></code></pre></div></div><article class="c-daJEgu">
+<p>
+<strong>Segundo passo:</strong> Substitua o <code class="inline">[nome]</code> e <code class="inline">[valor]</code> conforme essas orientações:</p>
+<ul>
+  <li>
+Sua primeira variável está sendo declarada com a palavra-chave <code class="inline">let</code>;  </li>
+  <li>
+Substitua o <code class="inline">[nome]</code> na expressão por um nome que descreva nitidamente o que vai ser guardado dentro da variável.  </li>
+</ul>
+<p>
+⚠️ Atenção, existem algumas regras gerais para nomear variáveis ⚠️:</p>
+<ul>
+  <li>
+Não pode haver espaço entre as palavras;  </li>
+  <li>
+Não é possível começar o nome de uma variável com um número, mas é possível usar números em outras posições. Por exemplo: <code class="inline">1comida</code> não vai funcionar, mas <code class="inline">comida1</code> funciona.  </li>
+  <li>
+Nomes de variáveis são sensíveis a letras maiúsculas e minúsculas. Ou seja, <code class="inline">Comida</code> é diferente de <code class="inline">COMIDA</code> que é diferente de <code class="inline">comida</code>.  </li>
+</ul>
+<p>
+Além dessas regras, existe uma convenção padrão para criação de nomes de variáveis em JavaScript chamada <code class="inline">camelCase</code>:</p>
+<ul>
+  <li>
+As palavras são agrupadas em uma;  </li>
+  <li>
+O nome da variável começa com letra minúscula;  </li>
+  <li>
+Cada palavra nova começa com uma letra maiúscula, como acontece no próprio <code class="inline">camelCase</code>. Por exemplo: <code class="inline">carroVermelho</code>.  </li>
+</ul>
+<p>
+No nosso exemplo, podemos chamar a variável de <code class="inline">comidaFavorita</code>:</p>
+</article><div class="c-jykYDu"><div class="c-fkerDR"><button type="button" class="c-gfRGUc">Copiar</button><pre style="color: rgb(248, 248, 242); background: rgb(39, 40, 34); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-javascript" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 1.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">1</span><span class="token" style="color: rgb(102, 217, 239);">let</span><span> comidaFavorita </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(248, 248, 242);">[</span><span>valor</span><span class="token" style="color: rgb(248, 248, 242);">]</span><span class="token" style="color: rgb(248, 248, 242);">;</span></code></pre></div></div><article class="c-daJEgu">
+<p>
+<strong>Terceiro passo:</strong> Atribua um valor para a variável <code class="inline">comidaFavorita</code>:</p>
+<p>
+Por último, você precisa atribuir um valor para sua variável <code class="inline">comidaFavorita</code>. Digamos que sua comida favorita é pizza.</p>
+<p>
+Valores que são textos, frases ou palavras devem ser sempre envolvidas por aspas.</p>
+<blockquote>
+  <p>
+<strong>De olho na dica 👀 :</strong> Você pode utilizar tanto aspas simples <code class="inline">'</code> quanto aspas duplas <code class="inline">"</code>. Porém, aspas simples são mais utilizadas.  </p>
+</blockquote>
+<p>
+Veja como fica:</p>
+</article><div class="c-jykYDu"><div class="c-fkerDR"><button type="button" class="c-gfRGUc">Copiar</button><pre style="color: rgb(248, 248, 242); background: rgb(39, 40, 34); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-javascript" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 1.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">1</span><span class="token" style="color: rgb(102, 217, 239);">let</span><span> comidaFavorita </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'Pizza'</span><span class="token" style="color: rgb(248, 248, 242);">;</span></code></pre></div></div><article class="c-daJEgu">
+<p>
+Para visualizar o valor da variável, você pode utilizar o comando <code class="inline">console.log</code>, que serve para visualizar as informações no console do navegador. </p>
+<p>
+Para isso, basta envolver a variável <code class="inline">comidaFavorita</code> dentro dos parênteses. 😄</p>
+</article><div class="c-jykYDu"><div class="c-fkerDR"><button type="button" class="c-gfRGUc">Copiar</button><pre style="color: rgb(248, 248, 242); background: rgb(39, 40, 34); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-javascript" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">1</span><span class="token" style="color: rgb(102, 217, 239);">let</span><span> comidaFavorita </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'Pizza'</span><span class="token" style="color: rgb(248, 248, 242);">;</span><span>
+</span><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">2</span>
+<span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">3</span><span></span><span class="token console" style="color: rgb(230, 219, 116);">console</span><span class="token" style="color: rgb(248, 248, 242);">.</span><span class="token method property-access" style="color: rgb(230, 219, 116);">log</span><span class="token" style="color: rgb(248, 248, 242);">(</span><span>comidaFavorita</span><span class="token" style="color: rgb(248, 248, 242);">)</span><span class="token" style="color: rgb(248, 248, 242);">;</span></code></pre></div></div><article class="c-daJEgu">
+<p>
+Ao executar o código acima, você verá a palavra <code class="inline">Pizza</code> no console do seu navegador.</p>
+<p>
+Uhuul! Você acabou de declarar sua primeira variável! 🥳</p>
+<p>
+E se você mudar ideia? Imagine que agora a sua comida favorita é lasanha. Como você faria para substituir o valor da variável?</p>
+<p>
+Digite e execute o código abaixo no console do seu navegador:</p>
+</article><div class="c-jykYDu"><div class="c-fkerDR"><button type="button" class="c-gfRGUc">Copiar</button><pre style="color: rgb(248, 248, 242); background: rgb(39, 40, 34); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-javascript" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">1</span><span class="token" style="color: rgb(102, 217, 239);">let</span><span> comidaFavorita </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'Pizza'</span><span class="token" style="color: rgb(248, 248, 242);">;</span><span>
+</span><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">2</span>
+<span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">3</span><span>comidaFavorita </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'Lasanha'</span><span class="token" style="color: rgb(248, 248, 242);">;</span><span>
+</span><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">4</span>
+<span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">5</span><span></span><span class="token console" style="color: rgb(230, 219, 116);">console</span><span class="token" style="color: rgb(248, 248, 242);">.</span><span class="token method property-access" style="color: rgb(230, 219, 116);">log</span><span class="token" style="color: rgb(248, 248, 242);">(</span><span>comidaFavorita</span><span class="token" style="color: rgb(248, 248, 242);">)</span><span class="token" style="color: rgb(248, 248, 242);">;</span></code></pre></div></div><article class="c-daJEgu">
+<p>
+Você verá escrita a palavra <code class="inline">'Lasanha'</code> no console. Legal né? E você pode atribuir um novo valor para sua variável quantas vezes precisar! Mude o valor da sua variável <code class="inline">comidaFavorita</code> no código e execute no navegador para ver o resultado!</p>
+</article><article class="c-daJEgu"><h3>
+Diferenças entre as palavras-chave <code class="inline">var</code>, <code class="inline">let</code> e <code class="inline">const</code></h3>
+</article><article class="c-daJEgu"><p>
+Existem três palavras-chave que você pode utilizar para declarar variáveis: <code class="inline">var</code>, <code class="inline">let</code> e <code class="inline">const</code>. </p>
+<p>
+As palavras-chave <code class="inline">let</code> e <code class="inline">const</code> foram introduzidas à linguagem JavaScript em 2015. Antes disso só era possível usar a palavra-chave <code class="inline">var</code>.</p>
+<p>
+Como o <code class="inline">var</code> é mais antigo, mas ainda há muito código escrito com ele, é importante conhecer essa palavra-chave. O <code class="inline">let</code> possui algumas vantagens em relação ao <code class="inline">var</code> e hoje em dia, é uma boa prática utilizar somente <code class="inline">let</code> e <code class="inline">const</code> para declarar variáveis. 😄</p>
+<p>
+Vamos agora descobrir a diferença entre <code class="inline">var</code>, <code class="inline">let</code> e <code class="inline">const</code>:</p>
+<p>
+Com o <code class="inline">let</code> você consegue declarar uma variável e reatribuir valor à ela:</p>
+</article><div class="c-jykYDu"><div class="c-fkerDR"><button type="button" class="c-gfRGUc">Copiar</button><pre style="color: rgb(248, 248, 242); background: rgb(39, 40, 34); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-javascript" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">1</span><span class="token" style="color: rgb(102, 217, 239);">let</span><span> meuNome </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'Maria'</span><span class="token" style="color: rgb(248, 248, 242);">;</span><span>
+</span><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">2</span>
+<span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">3</span><span>meuNome </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'Aline'</span><span class="token" style="color: rgb(248, 248, 242);">;</span><span>
+</span><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">4</span>
+<span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">5</span><span></span><span class="token console" style="color: rgb(230, 219, 116);">console</span><span class="token" style="color: rgb(248, 248, 242);">.</span><span class="token method property-access" style="color: rgb(230, 219, 116);">log</span><span class="token" style="color: rgb(248, 248, 242);">(</span><span>meuNome</span><span class="token" style="color: rgb(248, 248, 242);">)</span><span class="token" style="color: rgb(248, 248, 242);">;</span></code></pre></div></div><article class="c-daJEgu">
+<p>
+O <code class="inline">var</code> tem praticamente as mesmas funcionalidades que o <code class="inline">let</code> e você também pode reatribuir valor à variável:</p>
+</article><div class="c-jykYDu"><div class="c-fkerDR"><button type="button" class="c-gfRGUc">Copiar</button><pre style="color: rgb(248, 248, 242); background: rgb(39, 40, 34); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-javascript" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">1</span><span class="token" style="color: rgb(102, 217, 239);">var</span><span> meuNome </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'Maria'</span><span class="token" style="color: rgb(248, 248, 242);">;</span><span>
+</span><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">2</span>
+<span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">3</span><span>meuNome </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'Aline'</span><span class="token" style="color: rgb(248, 248, 242);">;</span><span>
+</span><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">4</span>
+<span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">5</span><span></span><span class="token console" style="color: rgb(230, 219, 116);">console</span><span class="token" style="color: rgb(248, 248, 242);">.</span><span class="token method property-access" style="color: rgb(230, 219, 116);">log</span><span class="token" style="color: rgb(248, 248, 242);">(</span><span>meuNome</span><span class="token" style="color: rgb(248, 248, 242);">)</span><span class="token" style="color: rgb(248, 248, 242);">;</span></code></pre></div></div><article class="c-daJEgu">
+<p>
+A <code class="inline">const</code> tem uma diferença: uma característica dessa palavra-chave é que ela é uma <strong>constante</strong>. Isto significa que, uma vez que essa variável é declarada, o valor dela não poderá ser alterado.</p>
+<p>
+Digite e execute o código abaixo no console do seu navegador:</p>
+</article><div class="c-jykYDu"><div class="c-fkerDR"><button type="button" class="c-gfRGUc">Copiar</button><pre style="color: rgb(248, 248, 242); background: rgb(39, 40, 34); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-javascript" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">1</span><span class="token" style="color: rgb(102, 217, 239);">const</span><span> meuNome </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'Maria'</span><span class="token" style="color: rgb(248, 248, 242);">;</span><span>
+</span><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">2</span>
+<span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">3</span><span>meuNome </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> </span><span class="token" style="color: rgb(166, 226, 46);">'Aline'</span><span class="token" style="color: rgb(248, 248, 242);">;</span><span>
+</span><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">4</span>
+<span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">5</span><span></span><span class="token console" style="color: rgb(230, 219, 116);">console</span><span class="token" style="color: rgb(248, 248, 242);">.</span><span class="token method property-access" style="color: rgb(230, 219, 116);">log</span><span class="token" style="color: rgb(248, 248, 242);">(</span><span>meuNome</span><span class="token" style="color: rgb(248, 248, 242);">)</span><span class="token" style="color: rgb(248, 248, 242);">;</span></code></pre></div></div><article class="c-daJEgu">
+<p>
+Você receberá um erro de execução, dizendo que não é possível reatribuir valores para constantes. Esse tipo de variável é útil para guardar valores que <strong>nunca</strong> serão alterados ao longo da execução do programa.</p>
+<blockquote>
+  <p>
+<strong>Anota aí 📣:</strong> Com a palavra-chave <code class="inline">let</code> você poderá reatribuir valores à sua variável quantas vezes quiser. Com a palavra-chave <code class="inline">const</code> você só poderá atribuir o valor uma única vez.  </p>
+</blockquote>
+</article><article class="c-daJEgu"><p>
+No vídeo a seguir, o Gus irá te mostrar na prática como declarar e atribuir valores a variáveis e constantes, escrevendo e executando o código no console do navegador. Abra seu console e se prepare para declarar novas variáveis acompanhando os exemplos do vídeo!</p>
+</article><div class="c-jjtfuy"><div class="c-bVoeLX"><iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="JavaScript do Zero | 07. O que são variáveis e constantes | CURSO GRATUITO" src="./Variáveis e constantes - Trybe_files/jPBnP1_Lnjs.html" id="widget22"></iframe></div></div><article class="c-daJEgu">
+<br>
+</article><article class="c-daJEgu"><p>
+Parabéns! Você acaba de escrever suas primeiras linhas de código JavaScript e acaba de iniciar a sua jornada como pessoa programadora. 🥳</p>
+<p>
+Agora é hora de praticar!</p>
+<p>
+No vídeo a seguir, você verá como utilizar o Stackblitz para resolver desafios de programação e consolidar os aprendizados após cada lição deste curso.</p>
+</article><div class="c-jjtfuy"><div class="c-bVoeLX"><iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="JavaScript do Zero | 08. Exercícios na plataforma StackBlitz | CURSO GRATUITO" src="./Variáveis e constantes - Trybe_files/xdBSQUpnJSE.html" id="widget24"></iframe></div></div><article class="c-daJEgu"><h2>
+Exercícios</h2>
+</article><article class="c-daJEgu"><h4>
+Crie uma variável <code class="inline">cor</code> 🎨</h4>
+<p>
+Crie uma variável chamada <code class="inline">cor</code>, que pode ter seu valor alterado e atribua à ela o nome da cor <code class="inline">'verde'</code>. Lembre-se de colocar a cor entre aspas simples (<code class="inline">''</code>).</p>
+</article><article class="c-daJEgu"><iframe src="./Variáveis e constantes - Trybe_files/ex01-variaveis-e-constantes-1smes4.html" width="100%" height="600">
+</iframe></article><article class="c-daJEgu">
+<hr>
+</article><article class="c-daJEgu"><h4>
+Atribua e reatribua valores ↔️</h4>
+<p>
+Crie uma variável chamada <code class="inline">cidade</code> e atribua à ela o nome <code class="inline">'Parauapebas'</code>. Depois, mude o nome da cidade armazenada na variável <code class="inline">cidade</code> para <code class="inline">'Rio de Janeiro'</code>. Lembre-se de colocar o nome da cidade entre aspas simples (<code class="inline">''</code>).</p>
+</article><article class="c-daJEgu"><iframe src="./Variáveis e constantes - Trybe_files/ex02-variaveis-e-constantes-lmoipk.html" width="100%" height="600">
+</iframe></article><article class="c-daJEgu">
+<hr>
+</article><article class="c-daJEgu"><h4>
+Crie uma constante para armazenar o seu nome 🏷</h4>
+<p>
+Crie uma constante chamada <code class="inline">meuNome</code> e atribua à ela o seu nome entre aspas simples (<code class="inline">''</code>).</p>
+</article><article class="c-daJEgu"><iframe src="./Variáveis e constantes - Trybe_files/ex03-variaveis-e-constantes-lnyywy.html" width="100%" height="600">
+</iframe></article><article class="c-daJEgu">
+<hr>
+</article><article class="c-daJEgu"><h4>
+Crie uma variável para guardar a sua idade 🎈</h4>
+<p>
+Crie uma variável chamada <code class="inline">minhaIdade</code> e atribua à ela o número que representa a sua idade.</p>
+</article><article class="c-daJEgu"><iframe src="./Variáveis e constantes - Trybe_files/ex04-variaveis-e-constantes-15v7wa.html" width="100%" height="600">
+</iframe></article><article class="c-daJEgu">
+<hr>
+</article><article class="c-daJEgu"><h4>
+Corrija o código 💻</h4>
+<p>
+O seguinte código retorna um erro:</p>
+</article><div class="c-jykYDu"><div class="c-fkerDR"><button type="button" class="c-gfRGUc">Copiar</button><pre style="color: rgb(248, 248, 242); background: rgb(39, 40, 34); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-javascript" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 1em; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">1</span><span class="token" style="color: rgb(102, 217, 239);">const</span><span> email </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> email@trybe</span><span class="token" style="color: rgb(248, 248, 242);">.</span><span class="token property-access">com</span><span class="token" style="color: rgb(248, 248, 242);">;</span><span>
+</span><span class="linenumber react-syntax-highlighter-line-number" style="display: inline-block; min-width: 2.25em; padding-right: 1em; text-align: right; user-select: none; color: rgb(130, 146, 162);">2</span><span>email </span><span class="token" style="color: rgb(248, 248, 242);">=</span><span> outroEmail@trybe</span><span class="token" style="color: rgb(248, 248, 242);">.</span><span class="token property-access">com</span><span class="token" style="color: rgb(248, 248, 242);">;</span></code></pre></div></div><article class="c-daJEgu">
+<p>
+Faça as alterações necessárias para que o código funcione corretamente.</p>
+</article><article class="c-daJEgu"><iframe src="./Variáveis e constantes - Trybe_files/ex05-variaveis-e-constantes-htdqpy.html" width="100%" height="600">
+</iframe></article><article class="c-daJEgu">
+<hr>
+</article><article class="c-daJEgu"><h3>
+Recursos Adicionais (opcional)</h3>
+<p>
+<a target="_blank" href="https://www.freecodecamp.org/portuguese/news/var-let-e-const-qual-e-a-diferenca/">Diferença entre var, let e const</a></p>
+</article><a role="button" href="https://app.betrybe.com/learn/course/ac5d46f0-740a-4c81-8fc4-d18725aee78d/module/dfc78ae9-5560-4def-a85b-489cded568f4/section/4ce31d95-fc61-4517-bcfd-901c4b570b1f/lesson/eb18be3e-2043-469d-bfe1-2f2b873cba28/solution" type="button" aria-disabled="false" class="c-eqzuyj c-eqzuyj-dbhHqa-size-medium c-eqzuyj-cAzRkd-kind-ghost" target="_blank">Ver gabarito</a><div class="c-bgRMoN c-bgRMoN-iHfhap-position-horizontal c-bgRMoN-fGHEql-cv c-lkkAJt" aria-hidden="true"></div><div class="c-bsTeYW"><div class="c-dVdZKi"><button role="button" type="button" aria-disabled="false" class="c-eqzuyj c-eqzuyj-dbhHqa-size-medium c-eqzuyj-bEHIds-kind-primary conclude-button__ada-button"><div data-testid="icon-position-left" class="c-PJLV c-PJLV-krlfeC-iconPosition-left"><div class="c-ieVRmK c-ieVRmK-idiuQfs-css"><figure data-testid="icon-rounded_check_outline"><svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="id-c4gKpqxQtaTyl7GwgLADm id-M8bgqmWCv_J90HdIUnqZh" aria-hidden="false" focusable="false"><title id="id-c4gKpqxQtaTyl7GwgLADm"></title><desc id="id-M8bgqmWCv_J90HdIUnqZh"></desc><path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM15.88 8.29L10 14.17L8.12 12.29C7.73 11.9 7.1 11.9 6.71 12.29C6.32 12.68 6.32 13.31 6.71 13.7L9.3 16.29C9.69 16.68 10.32 16.68 10.71 16.29L17.3 9.7C17.69 9.31 17.69 8.68 17.3 8.29C16.91 7.9 16.27 7.9 15.88 8.29Z"></path></svg></figure></div></div>Marcar lição como concluída</button></div></div></div></main></div></div></div></main></div></div><script type="text/javascript">!function(e){function d(d){for(var f,a,r=d[0],n=d[1],o=d[2],u=0,l=[];u<r.length;u++)a=r[u],Object.prototype.hasOwnProperty.call(b,a)&&b[a]&&l.push(b[a][0]),b[a]=0;for(f in n)Object.prototype.hasOwnProperty.call(n,f)&&(e[f]=n[f]);for(i&&i(d);l.length;)l.shift()();return t.push.apply(t,o||[]),c()}function c(){for(var e,d=0;d<t.length;d++){for(var c=t[d],f=!0,a=1;a<c.length;a++){var n=c[a];0!==b[n]&&(f=!1)}f&&(t.splice(d--,1),e=r(r.s=c[0]))}return e}var f={},a={7:0},b={7:0},t=[];function r(d){if(f[d])return f[d].exports;var c=f[d]={i:d,l:!1,exports:{}};return e[d].call(c.exports,c,c.exports,r),c.l=!0,c.exports}r.e=function(e){var d=[];a[e]?d.push(a[e]):0!==a[e]&&{0:1}[e]&&d.push(a[e]=new Promise((function(d,c){for(var f="static/css/"+({}[e]||e)+"."+{0:"37dfaafe",1:"31d6cfe0",2:"31d6cfe0",3:"31d6cfe0",4:"31d6cfe0",5:"31d6cfe0",9:"31d6cfe0",10:"31d6cfe0",11:"31d6cfe0",12:"31d6cfe0",13:"31d6cfe0",14:"31d6cfe0",15:"31d6cfe0",16:"31d6cfe0",17:"31d6cfe0",18:"31d6cfe0",19:"31d6cfe0",20:"31d6cfe0",21:"31d6cfe0",22:"31d6cfe0",23:"31d6cfe0",24:"31d6cfe0",25:"31d6cfe0",26:"31d6cfe0",27:"31d6cfe0",28:"31d6cfe0",29:"31d6cfe0",30:"31d6cfe0",31:"31d6cfe0",32:"31d6cfe0",33:"31d6cfe0",34:"31d6cfe0",35:"31d6cfe0",36:"31d6cfe0",37:"31d6cfe0",38:"31d6cfe0",39:"31d6cfe0",40:"31d6cfe0",41:"31d6cfe0",42:"31d6cfe0",43:"31d6cfe0",44:"31d6cfe0",45:"31d6cfe0",46:"31d6cfe0",47:"31d6cfe0",48:"31d6cfe0",49:"31d6cfe0",50:"31d6cfe0",51:"31d6cfe0",52:"31d6cfe0",53:"31d6cfe0",54:"31d6cfe0",55:"31d6cfe0",56:"31d6cfe0",57:"31d6cfe0",58:"31d6cfe0",59:"31d6cfe0",60:"31d6cfe0",61:"31d6cfe0",62:"31d6cfe0",63:"31d6cfe0",64:"31d6cfe0",65:"31d6cfe0",66:"31d6cfe0",67:"31d6cfe0",68:"31d6cfe0",69:"31d6cfe0",70:"31d6cfe0",71:"31d6cfe0",72:"31d6cfe0",73:"31d6cfe0",74:"31d6cfe0",75:"31d6cfe0",76:"31d6cfe0",77:"31d6cfe0",78:"31d6cfe0",79:"31d6cfe0",80:"31d6cfe0",81:"31d6cfe0",82:"31d6cfe0",83:"31d6cfe0",84:"31d6cfe0",85:"31d6cfe0",86:"31d6cfe0",87:"31d6cfe0",88:"31d6cfe0",89:"31d6cfe0",90:"31d6cfe0",91:"31d6cfe0",92:"31d6cfe0",93:"31d6cfe0",94:"31d6cfe0",95:"31d6cfe0",96:"31d6cfe0",97:"31d6cfe0",98:"31d6cfe0",99:"31d6cfe0",100:"31d6cfe0",101:"31d6cfe0",102:"31d6cfe0",103:"31d6cfe0",104:"31d6cfe0",105:"31d6cfe0",106:"31d6cfe0",107:"31d6cfe0",108:"31d6cfe0",109:"31d6cfe0",110:"31d6cfe0",111:"31d6cfe0",112:"31d6cfe0",113:"31d6cfe0",114:"31d6cfe0",115:"31d6cfe0",116:"31d6cfe0",117:"31d6cfe0",118:"31d6cfe0",119:"31d6cfe0",120:"31d6cfe0",121:"31d6cfe0",122:"31d6cfe0",123:"31d6cfe0",124:"31d6cfe0",125:"31d6cfe0",126:"31d6cfe0",127:"31d6cfe0",128:"31d6cfe0",129:"31d6cfe0",130:"31d6cfe0",131:"31d6cfe0",132:"31d6cfe0",133:"31d6cfe0",134:"31d6cfe0",135:"31d6cfe0",136:"31d6cfe0",137:"31d6cfe0",138:"31d6cfe0",139:"31d6cfe0",140:"31d6cfe0",141:"31d6cfe0",142:"31d6cfe0",143:"31d6cfe0",144:"31d6cfe0",145:"31d6cfe0",146:"31d6cfe0",147:"31d6cfe0",148:"31d6cfe0",149:"31d6cfe0",150:"31d6cfe0",151:"31d6cfe0",152:"31d6cfe0",153:"31d6cfe0",154:"31d6cfe0",155:"31d6cfe0",156:"31d6cfe0",157:"31d6cfe0",158:"31d6cfe0",159:"31d6cfe0",160:"31d6cfe0",161:"31d6cfe0",162:"31d6cfe0",163:"31d6cfe0",164:"31d6cfe0",165:"31d6cfe0",166:"31d6cfe0",167:"31d6cfe0",168:"31d6cfe0",169:"31d6cfe0",170:"31d6cfe0",171:"31d6cfe0",172:"31d6cfe0",173:"31d6cfe0",174:"31d6cfe0",175:"31d6cfe0",176:"31d6cfe0",177:"31d6cfe0",178:"31d6cfe0",179:"31d6cfe0",180:"31d6cfe0",181:"31d6cfe0",182:"31d6cfe0",183:"31d6cfe0",184:"31d6cfe0",185:"31d6cfe0",186:"31d6cfe0",187:"31d6cfe0",188:"31d6cfe0",189:"31d6cfe0",190:"31d6cfe0",191:"31d6cfe0",192:"31d6cfe0",193:"31d6cfe0",194:"31d6cfe0",195:"31d6cfe0",196:"31d6cfe0",197:"31d6cfe0",198:"31d6cfe0",199:"31d6cfe0",200:"31d6cfe0",201:"31d6cfe0",202:"31d6cfe0",203:"31d6cfe0",204:"31d6cfe0",205:"31d6cfe0",206:"31d6cfe0",207:"31d6cfe0",208:"31d6cfe0",209:"31d6cfe0",210:"31d6cfe0",211:"31d6cfe0",212:"31d6cfe0",213:"31d6cfe0",214:"31d6cfe0",215:"31d6cfe0",216:"31d6cfe0",217:"31d6cfe0",218:"31d6cfe0",219:"31d6cfe0",220:"31d6cfe0",221:"31d6cfe0",222:"31d6cfe0",223:"31d6cfe0",224:"31d6cfe0",225:"31d6cfe0",226:"31d6cfe0",227:"31d6cfe0",228:"31d6cfe0",229:"31d6cfe0",230:"31d6cfe0",231:"31d6cfe0",232:"31d6cfe0",233:"31d6cfe0",234:"31d6cfe0",235:"31d6cfe0",236:"31d6cfe0",237:"31d6cfe0",238:"31d6cfe0",239:"31d6cfe0",240:"31d6cfe0",241:"31d6cfe0",242:"31d6cfe0",243:"31d6cfe0",244:"31d6cfe0",245:"31d6cfe0",246:"31d6cfe0",247:"31d6cfe0",248:"31d6cfe0",249:"31d6cfe0",250:"31d6cfe0",251:"31d6cfe0",252:"31d6cfe0",253:"31d6cfe0",254:"31d6cfe0",255:"31d6cfe0",256:"31d6cfe0",257:"31d6cfe0",258:"31d6cfe0",259:"31d6cfe0",260:"31d6cfe0",261:"31d6cfe0",262:"31d6cfe0",263:"31d6cfe0",264:"31d6cfe0",265:"31d6cfe0",266:"31d6cfe0",267:"31d6cfe0",268:"31d6cfe0",269:"31d6cfe0",270:"31d6cfe0",271:"31d6cfe0",272:"31d6cfe0",273:"31d6cfe0",274:"31d6cfe0",275:"31d6cfe0",276:"31d6cfe0",277:"31d6cfe0",278:"31d6cfe0",279:"31d6cfe0",280:"31d6cfe0",281:"31d6cfe0",282:"31d6cfe0",283:"31d6cfe0",284:"31d6cfe0",285:"31d6cfe0",286:"31d6cfe0",287:"31d6cfe0",288:"31d6cfe0",289:"31d6cfe0",290:"31d6cfe0",291:"31d6cfe0",292:"31d6cfe0",293:"31d6cfe0",294:"31d6cfe0",295:"31d6cfe0",296:"31d6cfe0",297:"31d6cfe0",298:"31d6cfe0",299:"31d6cfe0",300:"31d6cfe0",301:"31d6cfe0",302:"31d6cfe0",303:"31d6cfe0",304:"31d6cfe0",305:"31d6cfe0",306:"31d6cfe0",307:"31d6cfe0",308:"31d6cfe0",309:"31d6cfe0",310:"31d6cfe0",311:"31d6cfe0",312:"31d6cfe0",313:"31d6cfe0",314:"31d6cfe0",315:"31d6cfe0",316:"31d6cfe0",317:"31d6cfe0",318:"31d6cfe0",319:"31d6cfe0",320:"31d6cfe0",321:"31d6cfe0",322:"31d6cfe0",323:"31d6cfe0",324:"31d6cfe0",325:"31d6cfe0",326:"31d6cfe0",327:"31d6cfe0",328:"31d6cfe0",329:"31d6cfe0",330:"31d6cfe0",331:"31d6cfe0",332:"31d6cfe0",333:"31d6cfe0",334:"31d6cfe0",335:"31d6cfe0",336:"31d6cfe0",337:"31d6cfe0",338:"31d6cfe0",339:"31d6cfe0",340:"31d6cfe0",341:"31d6cfe0",342:"31d6cfe0",343:"31d6cfe0",344:"31d6cfe0",345:"31d6cfe0",346:"31d6cfe0",347:"31d6cfe0",348:"31d6cfe0",349:"31d6cfe0",350:"31d6cfe0",351:"31d6cfe0",352:"31d6cfe0",353:"31d6cfe0",354:"31d6cfe0",355:"31d6cfe0",356:"31d6cfe0",357:"31d6cfe0",358:"31d6cfe0",359:"31d6cfe0",360:"31d6cfe0",361:"31d6cfe0",362:"31d6cfe0",363:"31d6cfe0",364:"31d6cfe0",365:"31d6cfe0",366:"31d6cfe0",367:"31d6cfe0",368:"31d6cfe0",369:"31d6cfe0",370:"31d6cfe0",371:"31d6cfe0",372:"31d6cfe0",373:"31d6cfe0",374:"31d6cfe0",375:"31d6cfe0",376:"31d6cfe0",377:"31d6cfe0",378:"31d6cfe0",379:"31d6cfe0",380:"31d6cfe0",381:"31d6cfe0",382:"31d6cfe0",383:"31d6cfe0",384:"31d6cfe0",385:"31d6cfe0",386:"31d6cfe0",387:"31d6cfe0",388:"31d6cfe0",389:"31d6cfe0",390:"31d6cfe0",391:"31d6cfe0",392:"31d6cfe0",393:"31d6cfe0",394:"31d6cfe0",395:"31d6cfe0",396:"31d6cfe0",397:"31d6cfe0",398:"31d6cfe0",399:"31d6cfe0",400:"31d6cfe0",401:"31d6cfe0",402:"31d6cfe0",403:"31d6cfe0",404:"31d6cfe0",405:"31d6cfe0",406:"31d6cfe0",407:"31d6cfe0",408:"31d6cfe0",409:"31d6cfe0",410:"31d6cfe0",411:"31d6cfe0",412:"31d6cfe0",413:"31d6cfe0",414:"31d6cfe0",415:"31d6cfe0"}[e]+".chunk.css",b=r.p+f,t=document.getElementsByTagName("link"),n=0;n<t.length;n++){var o=(i=t[n]).getAttribute("data-href")||i.getAttribute("href");if("stylesheet"===i.rel&&(o===f||o===b))return d()}var u=document.getElementsByTagName("style");for(n=0;n<u.length;n++){var i;if((o=(i=u[n]).getAttribute("data-href"))===f||o===b)return d()}var l=document.createElement("link");l.rel="stylesheet",l.type="text/css",l.onload=d,l.onerror=function(d){var f=d&&d.target&&d.target.src||b,t=new Error("Loading CSS chunk "+e+" failed.\n("+f+")");t.code="CSS_CHUNK_LOAD_FAILED",t.request=f,delete a[e],l.parentNode.removeChild(l),c(t)},l.href=b,document.getElementsByTagName("head")[0].appendChild(l)})).then((function(){a[e]=0})));var c=b[e];if(0!==c)if(c)d.push(c[2]);else{var f=new Promise((function(d,f){c=b[e]=[d,f]}));d.push(c[2]=f);var t,n=document.createElement("script");n.charset="utf-8",n.timeout=120,r.nc&&n.setAttribute("nonce",r.nc),n.src=function(e){return r.p+"static/js/"+({}[e]||e)+"."+{0:"6abc0334",1:"79438774",2:"c23a35fe",3:"559ed6cc",4:"d2238efb",5:"acb6d087",9:"e8ffd0e6",10:"872cb908",11:"66acbd38",12:"0f661652",13:"00efeebe",14:"34449314",15:"478fb168",16:"69018780",17:"65262532",18:"7ff74fe4",19:"51e88ede",20:"74eac474",21:"c6e23425",22:"7552b134",23:"2a5f2b11",24:"270d771a",25:"4bbcb78b",26:"99a5a4a5",27:"d56fc317",28:"4dad4020",29:"3f0df4dc",30:"74e666d0",31:"2a633b6e",32:"7d1fa88e",33:"46707af6",34:"2ee9035e",35:"03c5831d",36:"6cacc51e",37:"3709fc04",38:"7f435c30",39:"d51c23dc",40:"9a5baae3",41:"a4b7ad3d",42:"8db09071",43:"892332f7",44:"1466820c",45:"081d6ede",46:"eac9d711",47:"620129dd",48:"0c9bab20",49:"20cfd677",50:"2b8a3c10",51:"2ab32a8f",52:"c28dc43a",53:"da00c2a0",54:"5ea52ecd",55:"84b8dee8",56:"31ebc51a",57:"76d90448",58:"2b060d5f",59:"01a99522",60:"92c1d9da",61:"a507cbc7",62:"a5815222",63:"69c13a11",64:"7933fc13",65:"63f4e529",66:"7188cf9a",67:"7bdc0235",68:"5c5b9dad",69:"73fc29ce",70:"da24b5db",71:"09fcb4de",72:"65ed9ad4",73:"6879dc82",74:"16f74ff1",75:"60b663ff",76:"0a7af85a",77:"efc742d2",78:"546a44c3",79:"e04dc41c",80:"5835c7c3",81:"329ea4d2",82:"45b0c6dc",83:"11dd2f03",84:"d7082912",85:"1a94e572",86:"2ed9ea87",87:"076ed172",88:"a20e6753",89:"5b0edc14",90:"fa28b69d",91:"b26fde97",92:"2a08ddb0",93:"37d250b5",94:"2b04ecd9",95:"97df4369",96:"7ade9886",97:"e890fb87",98:"260df443",99:"6f921e5e",100:"dadfffe1",101:"026f3565",102:"1e9c9196",103:"2b6970a2",104:"5d13f5b7",105:"4010a048",106:"092f4da7",107:"db63b97e",108:"5ebc8e92",109:"17c24af4",110:"c4746877",111:"60b777b1",112:"39f2674f",113:"8ffc2018",114:"91e915ac",115:"19f7508f",116:"c180afdd",117:"781d2dcf",118:"700de618",119:"41ab1626",120:"86e7ff0b",121:"4b1d4aaf",122:"f571dc57",123:"18065c01",124:"9fcee79a",125:"43c92c96",126:"09956bec",127:"4b6f0e7f",128:"ea25bf65",129:"9e826b5a",130:"8a4a8689",131:"cc2fb326",132:"6ff2302c",133:"d573ddb0",134:"5549390a",135:"db0ca9ad",136:"c9f71608",137:"e0c073eb",138:"fcb184f0",139:"6f0890ec",140:"92e5a86c",141:"3c574733",142:"ee8abdb0",143:"a5b52247",144:"16c47ffa",145:"2eb748bf",146:"128ed0ad",147:"feea91cd",148:"615d6a8f",149:"44bb70e5",150:"e012eddd",151:"1fe59ba4",152:"4aa3dcf2",153:"eb8e421f",154:"94875a25",155:"bd9fc62f",156:"d9c9fa52",157:"faf1e39d",158:"89efb471",159:"f06c80c4",160:"2a01a7fe",161:"844ea92f",162:"cfeb890b",163:"d8de2f4c",164:"36925aaa",165:"06d0fbe5",166:"74312f7c",167:"66689054",168:"a842522d",169:"5ac69b1d",170:"2e4a7993",171:"a2ae53fb",172:"ee2da799",173:"a0b20a13",174:"4ce10a4e",175:"87347c34",176:"c1aa6b9b",177:"aac7bdb0",178:"53f6c505",179:"7d213522",180:"813556a5",181:"b04aa9c2",182:"5b6c37e0",183:"665c2302",184:"aac591fe",185:"1d717949",186:"3be44959",187:"897e6c5e",188:"e3360fc4",189:"31cab750",190:"f8cd6edd",191:"0edde4dc",192:"88526241",193:"76b944de",194:"7b5816ae",195:"00381d79",196:"5743a8b7",197:"0d231537",198:"f0979487",199:"520a551d",200:"6c9b4c73",201:"4545789b",202:"5d784545",203:"6338a1da",204:"09509d9c",205:"3b2a474f",206:"adf294ac",207:"e1b8433a",208:"86b11363",209:"0e54c2fa",210:"65c7dcd6",211:"fef94871",212:"b2404427",213:"5bc3f689",214:"38c87463",215:"2009f28e",216:"45201c78",217:"3574997f",218:"ad47e8e2",219:"4e7d4679",220:"78702804",221:"861d90d0",222:"208bbd11",223:"c5f9afc6",224:"6c66990a",225:"341efe75",226:"83c5305d",227:"aa8009c6",228:"d13dc17b",229:"1e893a9b",230:"cf5a4c86",231:"fa412743",232:"198c2699",233:"edfe68ef",234:"6a6be1cc",235:"bf19a01c",236:"8c38bf96",237:"6d78f72a",238:"62bddca7",239:"d8389c36",240:"5599288e",241:"96343160",242:"45266633",243:"60d84bc0",244:"327bcc36",245:"5c13952b",246:"67e211aa",247:"64d56aba",248:"b3c4b690",249:"23c13357",250:"3d965879",251:"de56ec4d",252:"9d210389",253:"919a0c38",254:"23afa762",255:"3a0c7956",256:"b9df9bd8",257:"6e2f2124",258:"239a8c95",259:"929b5710",260:"a3c3e1df",261:"54193809",262:"983799ae",263:"a9924332",264:"ecf0aadb",265:"06ed8e51",266:"d749f64d",267:"37389a7c",268:"2f607b69",269:"07ac1deb",270:"8b835e36",271:"02b32b84",272:"ccbaa6b1",273:"b03f9fff",274:"558c95f0",275:"b1b16379",276:"81fed338",277:"b2fd2722",278:"2ddf3991",279:"07449d66",280:"0f450d05",281:"257b9c1e",282:"78462c17",283:"53c8ddd1",284:"a4f14c1d",285:"0b3c1ef6",286:"aa6d0c90",287:"33368053",288:"6167715c",289:"936b5335",290:"eba34d02",291:"9871a0d0",292:"ece46b99",293:"5149dd85",294:"c44a73e4",295:"e6f46df0",296:"2a4ca948",297:"1132f998",298:"81308aca",299:"f0ee8031",300:"db502db8",301:"4a7d74d7",302:"2797dd22",303:"119e3e7e",304:"6d339e4a",305:"128e45de",306:"5dc89e42",307:"4242bf97",308:"1edda767",309:"1305169e",310:"1d9ebd68",311:"39070b32",312:"92e17525",313:"6e934411",314:"595b5dd4",315:"a18b3624",316:"2b0ed21f",317:"251b462c",318:"9302e55d",319:"8b2552c7",320:"40298fd0",321:"38890b83",322:"3931d64f",323:"fa44b887",324:"983a03f1",325:"a393d40b",326:"4d08db95",327:"1517cbb5",328:"fd3a7020",329:"49041619",330:"f478eb2b",331:"1efdd438",332:"82467124",333:"009056f9",334:"2fb18e7f",335:"c905faa0",336:"20ff3b07",337:"6949d02b",338:"5bc9cf75",339:"3db0f4f3",340:"deb6672f",341:"a1325845",342:"28066e8c",343:"87c883f5",344:"7c7973a7",345:"edb578ab",346:"0753b931",347:"bc388b1e",348:"b2856bb5",349:"c7ff5399",350:"aeece7e2",351:"baa36a1b",352:"6150f8a0",353:"b0fda51e",354:"5bcc033f",355:"49aa3fd0",356:"b8284607",357:"47c72185",358:"2a5b99ff",359:"efa14545",360:"df0be5b9",361:"730b9d4d",362:"eecc29f9",363:"0b757291",364:"96931047",365:"ab3a0577",366:"b07498f9",367:"a24bd611",368:"02cad0aa",369:"72ef593d",370:"c9be4ccb",371:"0604829d",372:"b2cb4992",373:"ac375fe9",374:"bf6856a9",375:"06677bbe",376:"dd71706a",377:"39927378",378:"f5d9a034",379:"47bdc789",380:"ca45a4c7",381:"cc7c3360",382:"d1feeb3d",383:"fe8a5abf",384:"c7d6f312",385:"7c5b2812",386:"22e12bc7",387:"c265d7ac",388:"551d306e",389:"836761f4",390:"3de2d3ff",391:"5687ddf7",392:"762f14c3",393:"ea316b83",394:"d3533e16",395:"8757cc99",396:"ca3a9535",397:"d334e5a9",398:"ed802ea8",399:"58140465",400:"b71c28c9",401:"dd632b15",402:"908befa4",403:"560f4f34",404:"513c0e56",405:"4254544c",406:"6a7e3944",407:"c5fe8682",408:"248562fa",409:"163c1e39",410:"c2750dd4",411:"9dd6a7a4",412:"d811b22e",413:"56f09f33",414:"4d897792",415:"b4a81e9e"}[e]+".chunk.js"}(e);var o=new Error;t=function(d){n.onerror=n.onload=null,clearTimeout(u);var c=b[e];if(0!==c){if(c){var f=d&&("load"===d.type?"missing":d.type),a=d&&d.target&&d.target.src;o.message="Loading chunk "+e+" failed.\n("+f+": "+a+")",o.name="ChunkLoadError",o.type=f,o.request=a,c[1](o)}b[e]=void 0}};var u=setTimeout((function(){t({type:"timeout",target:n})}),12e4);n.onerror=n.onload=t,document.head.appendChild(n)}return Promise.all(d)},r.m=e,r.c=f,r.d=function(e,d,c){r.o(e,d)||Object.defineProperty(e,d,{enumerable:!0,get:c})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,d){if(1&d&&(e=r(e)),8&d)return e;if(4&d&&"object"==typeof e&&e&&e.__esModule)return e;var c=Object.create(null);if(r.r(c),Object.defineProperty(c,"default",{enumerable:!0,value:e}),2&d&&"string"!=typeof e)for(var f in e)r.d(c,f,function(d){return e[d]}.bind(null,f));return c},r.n=function(e){var d=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(d,"a",d),d},r.o=function(e,d){return Object.prototype.hasOwnProperty.call(e,d)},r.p="/",r.oe=function(e){throw console.error(e),e};var n=this["webpackJsonp@betrybe/student-journey-web"]=this["webpackJsonp@betrybe/student-journey-web"]||[],o=n.push.bind(n);n.push=d,n=n.slice();for(var u=0;u<n.length;u++)d(n[u]);var i=o;c()}([])</script><script src="./Variáveis e constantes - Trybe_files/8.bfb0b434.chunk.js" type="text/javascript"></script><script src="./Variáveis e constantes - Trybe_files/main.0de3aed5.chunk.js" type="text/javascript"></script><script defer="" src="./Variáveis e constantes - Trybe_files/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon="{&quot;rayId&quot;:&quot;7ecee9f1bd3da5c2&quot;,&quot;token&quot;:&quot;32308b81b316463cad441438eacbe1c6&quot;,&quot;version&quot;:&quot;2023.4.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+<iframe src="./Variáveis e constantes - Trybe_files/pixel.html" style="display: none;"></iframe><iframe src="./Variáveis e constantes - Trybe_files/pixel1.html" style="display: none;"></iframe><textarea tabindex="-1" aria-hidden="true" style="min-height: 0px !important; max-height: none !important; height: 0px !important; visibility: hidden !important; overflow: hidden !important; position: absolute !important; z-index: -1000 !important; top: 0px !important; right: 0px !important; border-width: 1px; box-sizing: border-box; font-family: Inter, Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; line-height: 21px; padding: 10px 14px; tab-size: 8; text-indent: 0px; text-rendering: auto; text-transform: none; width: 248px; word-break: normal;"></textarea><iframe id="gs4axdz1q1m1690398324260pixel3" src="./Variáveis e constantes - Trybe_files/pixel3.html" style="display: none;"></iframe></body></html>
